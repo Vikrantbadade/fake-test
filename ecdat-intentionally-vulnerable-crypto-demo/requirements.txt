@@ -1,0 +1,14 @@
+# INTENTIONALLY INSECURE — ECDAT TEST FIXTURE
+# Python dependencies for cryptographic demonstration and scanner validation
+
+# Cryptographic libraries for Syft package discovery & Semgrep analysis
+cryptography==41.0.7
+pycryptodome==3.19.0
+ecdsa==0.18.0
+
+# Controlled outdated dependency for scanner vulnerability testing (Trivy / Syft validation)
+# Note: Intentionally using an outdated urllib3 version (1.26.5) for vulnerability inventory testing only.
+urllib3==1.26.5
+
+# Test framework
+pytest==7.4.3
